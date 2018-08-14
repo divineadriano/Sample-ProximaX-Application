@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.mnd.sample.myFirstApplication">
+  <grid id="27dc6" binding="mainPanel" layout-manager="GridLayoutManager" row-count="13" column-count="6" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="10" left="10" bottom="10" right="10"/>
+    <constraints>
+      <xy x="20" y="78" width="695" height="814"/>
+    </constraints>
+    <properties>
+      <background color="-131587"/>
+    </properties>
+    <clientProperties>
+      <html.disable class="java.lang.Boolean" value="false"/>
+    </clientProperties>
+    <border type="line">
+      <color color="-16777216"/>
+    </border>
+    <children>
+      <component id="8c971" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="16" style="1"/>
+          <text value="File:"/>
+        </properties>
+      </component>
+      <component id="c9b6b" class="javax.swing.JTextField" binding="txtFilePath">
+        <constraints>
+          <grid row="3" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="300" height="30"/>
+            <preferred-size width="300" height="30"/>
+            <maximum-size width="300" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <editable value="false"/>
+          <enabled value="true"/>
+        </properties>
+      </component>
+      <component id="e6eb6" class="javax.swing.JButton" binding="btnsearch">
+        <constraints>
+          <grid row="10" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="150" height="30"/>
+            <preferred-size width="150" height="30"/>
+            <maximum-size width="150" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-14973505"/>
+          <borderPainted value="true"/>
+          <font size="14" style="1"/>
+          <foreground color="-1"/>
+          <text value="SEARCH"/>
+        </properties>
+      </component>
+      <component id="1127c" class="javax.swing.JTextField" binding="txtTags">
+        <constraints>
+          <grid row="4" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="300" height="30"/>
+            <preferred-size width="300" height="30"/>
+            <maximum-size width="300" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <text value=""/>
+          <toolTipText value="Add tags separated by a ','"/>
+        </properties>
+      </component>
+      <component id="c39da" class="javax.swing.JTextField" binding="txtSearchName">
+        <constraints>
+          <grid row="10" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="300" height="30"/>
+            <preferred-size width="300" height="30"/>
+            <maximum-size width="300" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <text value=""/>
+          <toolTipText value="Type the file name here"/>
+        </properties>
+      </component>
+      <component id="c7bb1" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="16" style="1"/>
+          <text value="Tags:"/>
+        </properties>
+      </component>
+      <component id="ba37c" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="20" style="1"/>
+          <text value="My First ProximaX Application"/>
+        </properties>
+      </component>
+      <component id="3f714" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="6" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="5" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="16" style="1"/>
+          <text value="Uploaded Files:"/>
+        </properties>
+      </component>
+      <hspacer id="f94ba">
+        <constraints>
+          <grid row="12" column="2" row-span="1" col-span="3" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="-1" height="20"/>
+            <preferred-size width="-1" height="20"/>
+            <maximum-size width="-1" height="20"/>
+          </grid>
+        </constraints>
+      </hspacer>
+      <hspacer id="dffb4">
+        <constraints>
+          <grid row="2" column="2" row-span="1" col-span="3" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="-1" height="20"/>
+            <preferred-size width="-1" height="20"/>
+            <maximum-size width="-1" height="20"/>
+          </grid>
+        </constraints>
+      </hspacer>
+      <hspacer id="173e6">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="4" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="-1" height="20"/>
+            <preferred-size width="-1" height="20"/>
+            <maximum-size width="-1" height="20"/>
+          </grid>
+        </constraints>
+      </hspacer>
+      <component id="998b8" class="javax.swing.JButton" binding="btnselect">
+        <constraints>
+          <grid row="3" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="150" height="30"/>
+            <preferred-size width="150" height="30"/>
+            <maximum-size width="150" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-12408176"/>
+          <borderPainted value="true"/>
+          <font size="14" style="1"/>
+          <foreground color="-1"/>
+          <text value="BROWSE"/>
+        </properties>
+      </component>
+      <component id="89e50" class="javax.swing.JComboBox" binding="cboFiles">
+        <constraints>
+          <grid row="8" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="300" height="30"/>
+            <preferred-size width="300" height="30"/>
+            <maximum-size width="300" height="30"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="41798" class="javax.swing.JButton" binding="btndownload">
+        <constraints>
+          <grid row="8" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="150" height="30"/>
+            <preferred-size width="150" height="30"/>
+            <maximum-size width="150" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1819614"/>
+          <borderPainted value="true"/>
+          <font size="14" style="1"/>
+          <foreground color="-1"/>
+          <text value="DOWNLOAD"/>
+        </properties>
+      </component>
+      <hspacer id="f6d">
+        <constraints>
+          <grid row="7" column="2" row-span="1" col-span="3" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="-1" height="20"/>
+            <preferred-size width="-1" height="20"/>
+            <maximum-size width="-1" height="20"/>
+          </grid>
+        </constraints>
+      </hspacer>
+      <hspacer id="d2a6b">
+        <constraints>
+          <grid row="9" column="2" row-span="1" col-span="3" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="-1" height="20"/>
+            <preferred-size width="-1" height="20"/>
+            <maximum-size width="-1" height="20"/>
+          </grid>
+        </constraints>
+      </hspacer>
+      <component id="c971e" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="11" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="5" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="16" style="1"/>
+          <text value="Search Results:"/>
+        </properties>
+      </component>
+      <component id="7b017" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="8" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="5" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="16" style="1"/>
+          <text value="Select File:"/>
+        </properties>
+      </component>
+      <component id="eb042" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="10" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="5" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="16" style="1"/>
+          <text value="File Name:"/>
+        </properties>
+      </component>
+      <component id="4d23a" class="javax.swing.JTextField" binding="txtAuthor">
+        <constraints>
+          <grid row="5" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="300" height="30"/>
+            <preferred-size width="300" height="30"/>
+            <maximum-size width="300" height="30"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="9e97" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="5" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="16" style="1"/>
+          <text value="Uploader:"/>
+        </properties>
+      </component>
+      <vspacer id="fb2e6">
+        <constraints>
+          <grid row="0" column="0" row-span="13" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false">
+            <minimum-size width="30" height="-1"/>
+            <preferred-size width="30" height="-1"/>
+            <maximum-size width="30" height="-1"/>
+          </grid>
+        </constraints>
+      </vspacer>
+      <vspacer id="33d51">
+        <constraints>
+          <grid row="0" column="5" row-span="13" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false">
+            <minimum-size width="30" height="-1"/>
+            <preferred-size width="30" height="-1"/>
+            <maximum-size width="30" height="-1"/>
+          </grid>
+        </constraints>
+      </vspacer>
+      <component id="19982" class="javax.swing.JTextArea" binding="txtFiles">
+        <constraints>
+          <grid row="6" column="3" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <minimum-size width="300" height="100"/>
+            <preferred-size width="300" height="100"/>
+            <maximum-size width="300" height="100"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-15"/>
+          <editable value="false"/>
+          <font size="12" style="1"/>
+          <foreground color="-16777216"/>
+          <text value=" Your files in here..."/>
+        </properties>
+      </component>
+      <component id="65431" class="javax.swing.JTextArea" binding="textResults">
+        <constraints>
+          <grid row="11" column="3" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <minimum-size width="300" height="100"/>
+            <preferred-size width="300" height="100"/>
+            <maximum-size width="300" height="100"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-15"/>
+          <editable value="false"/>
+          <font size="12" style="2"/>
+          <foreground color="-4382445"/>
+          <lineWrap value="false"/>
+          <text value=" Search Results here..."/>
+        </properties>
+      </component>
+      <component id="cfabd" class="javax.swing.JButton" binding="btnupload">
+        <constraints>
+          <grid row="5" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="150" height="30"/>
+            <preferred-size width="150" height="30"/>
+            <maximum-size width="150" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1791437"/>
+          <borderPainted value="true"/>
+          <contentAreaFilled value="true"/>
+          <font size="14" style="1"/>
+          <foreground color="-1"/>
+          <horizontalTextPosition value="11"/>
+          <margin top="5" left="5" bottom="5" right="5"/>
+          <text value="UPLOAD"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
